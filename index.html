@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+   <link rel="stylesheet" href="style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+      rel="stylesheet">
+</head>
+
+<body>
+
+   <section class="navBar">
+      <div class="container">
+         <div class="d-flex align-items-center justify justify-content-between p-2 ">
+            <h3 class="">Where In The World</h3>
+            <div class="btn">Dark Mode</div>
+         </div>
+      </div>
+   </section>
+   <section class="content">
+      <div class="container">
+         <div class="actions d-flex align-items-center justify-content-between py-4">
+            <div class="inputDiv">
+               <input type="text" class="form-control" name="" id="countrySearchInput" aria-describedby="helpId"
+                  placeholder="Search for a country..." />
+            </div>
+            <div class="filter">
+               <select class="form-select form-select-lg" name="" id="continentSelect">
+                  <option value="Africa">Africa</option>
+                  <option value="Americas">America</option>
+                  <option value="Asia">Asia</option>
+                  <option value="Europe">Europe</option>
+                  <option value="Oceania">Oceania</option>
+               </select>
+
+            </div>
+         </div>
+
+         <div class="row justify-content-around" id="contriesDiv">
+           
+         </div>
+         <div class="row justify-content-center p-3">
+           <div class="col-3 d-flex">
+            <button class="btn btn-dark"  id="previous" disabled>Previous</button>
+         <div class="pageNumber p-2" id="pageNumber">1</div>
+         <button class="btn btn-dark" id="next">Next</button></div>
+         </div>
+      </div>
+
+   </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+   <script src="script.js"></script>
+</body>
+
+</html>

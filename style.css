@@ -1,0 +1,40 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+:root{
+   --Dark-Blue : hsl(209, 23%, 22%);
+   --Very-Dark-Blue: hsl(207, 26%, 17%);
+   --Very-Dark-Blue: hsl(200, 15%, 8%);
+   --Dark-Gray: hsl(0, 0%, 52%);
+   --Very-Light-Gray: hsl(0, 0%, 98%);
+   --White: hsl(0, 0%, 100%);
+}
+body{
+   font-family: "Nunito Sans", serif;
+}
+.navBar{
+   background-color: var(--White);
+}
+.content{
+   background-color: var(--Very-Light-Gray);
+}
+.card{
+   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+   background-color: var(--White);
+   border: none;
+   border-radius: 8px;
+}
+.label{
+   font-weight:700;
+}
+.countryImg{
+   max-height: 150px;
+   
+}
+.disabled {
+   opacity: 0.5;
+   cursor: not-allowed;
+   pointer-events: none;
+}
